@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {
+  text-indent: 2.5em;
+  margin-top: 0 }
+#main_container{
+	height:340px;
+	width:307px;
+	margin:0px 340px;
+}
+
+body{
+	font-family:tahoma, "Microsoft Sans Serif", sans-serif, Verdana;
+	font-size:12px;	
+}
+/* css กำหนดพื้นที่ของ div ข้อความเลื่อน   */
+.containMarquee{
+ 	position:relative;
+	top:100px;
+	margin:auto;
+	display:block;
+	height:250px;
+	border:none;
+	overflow:hidden;
+}
+/* css กำหนดข้อความ สำหรับการทำ marquee  */
+.obj_marquee{
+	position:absolute;
+	display:block;
+	white-space:nowrap;
+}
