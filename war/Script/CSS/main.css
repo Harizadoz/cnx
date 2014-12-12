@@ -1,18 +1,29 @@
 @charset "utf-8";
 /* CSS Document */
-
+body{
+	padding:0px;
+	margin:0px;
+	font-family: FONTNONGNAM;
+}
+#containner {
+	width:960px;
+	margin:auto;
+	font-size:24px;
+}
+@font-face{
+	font-family:"Siwalai";
+	src:url(../../fonts/font2.ttf);	}
 p {
-  text-indent: 2.5em;
-  margin-top: 0 }
+  margin-top: 0 ;
+  font-family:CharmNam;}
 #main_container{
 	height:340px;
 	width:307px;
 	margin:0px 340px;
 }
 
-body{
-	font-family:tahoma, "Microsoft Sans Serif", sans-serif, Verdana;
-	font-size:12px;	
+#BodyContent{
+	font-size:16px;
 }
 /* css กำหนดพื้นที่ของ div ข้อความเลื่อน   */
 .containMarquee{
@@ -29,4 +40,10 @@ body{
 	position:absolute;
 	display:block;
 	white-space:nowrap;
+}
+nav{
+	font-size:16px;
+}
+nav ul li{
+	width:120px;
 }

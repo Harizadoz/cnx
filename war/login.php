@@ -17,6 +17,6 @@ if(($user == $username ) && ($pass==$password))
 else
 {
 //ถ้าไม่ถูกต้องให้กลับไปหน้าแรก
- header("Location: CNX.html");
+ header("Location: index.php");
 }
  ?>

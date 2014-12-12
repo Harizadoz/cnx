@@ -6,6 +6,7 @@ function loginFrom(){
 		url:"login.html",
 		success: function(data){
 			$("#login").html(data);
+	
 		}
 	});
 }
@@ -24,7 +25,7 @@ $(function(){
 	var divMarquee_h=$(".obj_marquee").height(); //หาความสูงของเนื้อหา marquee
 	obj=$(".obj_marquee"); // กำหนดเป็น ตัวแปร jQuery object
 	marquee_direction=1; /* กำหนดการเลื่อนซ้ายขวา 1 = ล่างขึ้นบน 2 = บนลงล่าง */
-	marquee_speed=30; // กำหนดความเร็วของเวลาในการเคลื่อนที่ ค่ายิ่งมาก จะช้า
+	marquee_speed=35; // กำหนดความเร็วของเวลาในการเคลื่อนที่ ค่ายิ่งมาก จะช้า
 	marquee_step=2; // กำหนดระยะการเคลื่อนที่ ค่ายิ่งมาก จะเร็ว
 	
 	obj.css("top",(marquee_direction==1)?divCover_h:-divMarquee_h);

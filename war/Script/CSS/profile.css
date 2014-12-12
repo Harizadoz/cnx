@@ -1,19 +1,45 @@
-@charset "utf-8";
-/* CSS Document */
-#container{
-	float:left;
-	margin:0px 0px;
+body{
+		margin:40px 0px;;
+	padding:0px;
+	font-family:FONTNONGNAM;
+	
 }
+#container{
+width:960px;
+margin:auto;
+
+}
+
 #tum {
 	height:360px;
 	width:307px;
-	background:#000000;
 	float:left;
 }
+#bg1{
+width:207px;
+height:260px;
+}
+
+#bg1:hover{
+ cursor: pointer; cursor: hand; }
+
+#bg{
+width:207px;
+height:260px;
+margin:40px 0px;
+}
+#bg:hover{
+ cursor: pointer; cursor: hand; }
+
+#information{
+	font-size:26px;
+}
+#effect li{
+	list-style:none;
+}
 #nick {
+	float:right;
 	height:360px;
 	width:307px;
-	background:#000000;
-	margin:0px 400px;
 	border-radius:5px;
 }
